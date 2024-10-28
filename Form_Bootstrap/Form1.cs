@@ -15,7 +15,7 @@ namespace Form_Bootstrap
         public FormPrincipal()
         {
             InitializeComponent();
-            ComboBox1.SelectedItem(0);
+            comboBox1.SelectedIndex = 0; // Cambiado de ComboBox1 a comboBox1 y uso de SelectedIndex
         }
 
         private void txtTitle_TextChanged(object sender, EventArgs e)
@@ -78,7 +78,7 @@ namespace Form_Bootstrap
         private void dtpStartDate_ValueChanged(object sender, EventArgs e)
         {
             // Puede ser nulo
-           DateTime? dateTime = dtpStartDate.Value;
+            DateTime? dateTime = dtpStartDate.Value;
         }
 
         private void FormPrincipal_Load(object sender, EventArgs e)
