@@ -35,11 +35,6 @@ namespace Form_Bootstrap
             }
         }
 
-        private void combType_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            // Este método puede ser implementado si es necesario
-        }
-
         private void comboCriticity_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (sender is ComboBox comboBox)
@@ -79,11 +74,6 @@ namespace Form_Bootstrap
         {
             // Puede ser nulo
             DateTime? dateTime = dtpStartDate.Value;
-        }
-
-        private void FormPrincipal_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void butCancel_Click(object sender, EventArgs e)

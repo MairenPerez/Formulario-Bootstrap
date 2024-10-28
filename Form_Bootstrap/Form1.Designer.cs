@@ -128,7 +128,6 @@ namespace Form_Bootstrap
             this.combType.Size = new System.Drawing.Size(180, 28);
             this.combType.TabIndex = 6;
             this.combType.Text = "Incident";
-            this.combType.SelectedIndexChanged += new System.EventHandler(this.combType_SelectedIndexChanged);
             // 
             // lblCriticity
             // 
@@ -356,7 +355,6 @@ namespace Form_Bootstrap
             this.Name = "FormPrincipal";
             this.ShowIcon = false;
             this.Text = "Create new task";
-            this.Load += new System.EventHandler(this.FormPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numDuration)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
